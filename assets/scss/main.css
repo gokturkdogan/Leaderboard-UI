@@ -1,1 +1,124 @@
-/*# sourceMappingURL=main.css.map */
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 465px;
+  padding: 10px 50px;
+  border-radius: 20px;
+}
+.leaderboard__title {
+  display: flex;
+  justify-content: center;
+}
+.leaderboard__tabs {
+  display: flex;
+  justify-content: center;
+}
+.leaderboard__buttons {
+  border: 1px solid #c9cbcd;
+  border-radius: 35px;
+  background-color: #ebedf0;
+  padding: 4px 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+.leaderboard__tabContent {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  padding-bottom: 40px;
+}
+.leaderboard__tabItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.leaderboard__user {
+  display: flex;
+  justify-content: flex-start;
+  width: 220px;
+}
+.leaderboard__image {
+  border: 1px solid rgb(225, 217, 217);
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  width: 74px;
+  height: 45px;
+}
+.leaderboard__image span {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-top: 7px;
+}
+.leaderboard__image img {
+  width: 45px;
+  height: 45px;
+  border-radius: 55px;
+}
+.leaderboard__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 52px;
+  margin-left: 10px;
+}
+.leaderboard__info h4 {
+  margin-bottom: 0;
+}
+.leaderboard__info p {
+  margin-top: 3px;
+  letter-spacing: 0px;
+  font-size: 0.6rem;
+}
+.leaderboard__portfolio img {
+  width: 65px;
+  height: 55px;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+.leaderboard__bottomBtn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.tabLinks {
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 35px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.-active {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px rgb(182, 180, 180);
+}
+
+.everyone {
+  background-color: #0E1126;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 12px 27px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #ebedf0;
+  font-family: "Roboto";
+}
+body .container {
+  margin: 40px 450px;
+}/*# sourceMappingURL=main.css.map */

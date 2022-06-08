@@ -1,0 +1,23 @@
+.tabLinks{
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 35px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.-active{
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgb(182, 180, 180);
+}
+
+.everyone{
+    background-color: $bottombtnbg;
+    color: $leaderbg;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 12px 27px;
+    border-radius: 10px;
+    cursor: pointer;
+}

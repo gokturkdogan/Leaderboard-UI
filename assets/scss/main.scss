@@ -1,0 +1,10 @@
+@import 'variables/colors';
+@import 'layout/leaderboard';
+@import 'components/buttons';
+body{
+    background-color: $mainbg;
+    font-family: 'Roboto';
+    .container{
+        margin: 40px 450px;
+    }
+}
