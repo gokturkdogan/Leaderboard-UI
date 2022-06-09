@@ -30,13 +30,15 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 350px;
+      height: fit-content;
       padding-bottom: 40px;
+      display: none;
    }
    &__tabItem{
       display: flex;
       justify-content: space-between;
       width: 100%;
+      margin-top: 15px;
    }
    &__user{
       display: flex;
@@ -92,5 +94,6 @@
       display: flex;
       justify-content: center;
       padding-bottom: 40px;
+      padding-top: 20px;
    }
 }
